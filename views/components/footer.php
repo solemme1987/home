@@ -74,7 +74,7 @@
                     <article class="post">
                         <figure class="post-thumb">
                             <a href="blog-single.html">
-                                <img src="assets/images/blog/blog-one.png" alt="blog" />
+                                <img src="views/assets/images/blog/blog-one.png" alt="blog" />
                             </a>
                         </figure><!-- /.post-thumb -->
                         <div class="post-content">  
@@ -104,7 +104,7 @@
                     <article class="post">
                         <figure class="post-thumb">
                             <a href="blog-single.html">
-                                <img src="assets/images/blog/blog-two.png" alt="blog" />
+                                <img src="views/assets/images/blog/blog-two.png" alt="blog" />
                             </a>
                         </figure><!-- /.post-thumb -->
                         <div class="post-content">  
@@ -134,7 +134,7 @@
                     <article class="post">
                         <figure class="post-thumb">
                             <a href="blog-single.html">
-                                <img src="assets/images/blog/blog-three.png" alt="blog" />
+                                <img src="views/assets/images/blog/blog-three.png" alt="blog" />
                             </a>
                         </figure><!-- /.post-thumb -->
                         <div class="post-content">  
@@ -177,7 +177,7 @@
                            </h3><!-- /.widget-title -->
                        </div><!-- /.widget-title-area -->
                        <div class="widget-about-content">
-                           <img src="assets/images/footer-logo.png" alt="house" />
+                           <img src="views/assets/images/footer-logo.png" alt="house" />
                            <p>We Provide Premium Word Press, Ghost and HTML template. Our Perm tritium Templates is, develop gaped in a way so that the clients find  Support. Themes are developed in a way so that the clients find.</p>
                            <a href="#" class="button">More</a>
                        </div><!-- /.widget-content -->
@@ -204,12 +204,12 @@
                            <h3 class="widget-title">Instagram Image</h3><!-- /.widget-title -->
                        </div><!-- /.widget-title-area -->
                        <div class="instagram-image-content">
-                           <a href="#"><img src="assets/images/instagram/instagram-one.png" alt="" /></a>
-                           <a href="#"><img src="assets/images/instagram/instagram-two.png" alt="" /></a>
-                           <a href="#"><img src="assets/images/instagram/instagram-three.png" alt="" /></a>
-                           <a href="#"><img src="assets/images/instagram/instagram-four.png" alt="" /></a>
-                           <a href="#"><img src="assets/images/instagram/instagram-five.png" alt="" /></a>
-                           <a href="#"><img src="assets/images/instagram/instagram-six.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/instagram-one.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/instagram-two.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/instagram-three.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/instagram-four.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/instagram-five.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/instagram-six.png" alt="" /></a>
 
                        </div><!-- /.instagram-image-content -->
                    </div><!-- /.widget -->
