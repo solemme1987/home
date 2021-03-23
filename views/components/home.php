@@ -12,7 +12,7 @@
                         <div class="row tb">
                             <div class="col-md-5 tb-cell">
                                 <div class="show-image-content pogoSlider-slide-element" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
-                                    <img src="assets/images/slider-show.png" alt="show" />
+                                    <img src="views/assets/images/slider-show.png" alt="show" />
                                 </div><!-- /.show-image-content -->
                             </div><!-- /.col-md-5 -->
                             <div class="col-md-7 tb-cell">
@@ -29,7 +29,7 @@
                         <div class="row tb">
                             <div class="col-md-5 tb-cell">
                                 <div class="show-image-content pogoSlider-slide-element" data-in="slideLeft" data-out="slideRight" data-duration="750" data-delay="500">
-                                    <img src="assets/images/slider-show.png" alt="show" />
+                                    <img src="views/assets/images/slider-show.png" alt="show" />
                                 </div><!-- /.show-image-content -->
                             </div><!-- /.col-md-5 -->
                             <div class="col-md-7 tb-cell">
@@ -46,7 +46,7 @@
                         <div class="row">
                             <div class="col-md-5">
                                 <div class="show-image-content pogoSlider-slide-element" data-in="slideLeft" data-out="slideRight" data-duration="750" data-delay="500">
-                                    <img src="assets/images/slider-show.png" alt="show" />
+                                    <img src="views/assets/images/slider-show.png" alt="show" />
                                 </div><!-- /.show-image-content -->
                             </div><!-- /.col-md-5 -->
                             <div class="col-md-7">
@@ -114,26 +114,26 @@
                 <div class="col-md-8 col-sm-8">
                     <div class="catagory-right-content row">
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-one.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-one.png" alt="category" />
                             <h4>Family House</h4></a>
                         </div><!-- /.category-list -->
                         
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-two.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-two.png" alt="category" />
                             <h4>Apartment</h4></a>
                         </div><!-- /.category-list -->
 
                         <div class="clearfix visible-xs"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-three.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-three.png" alt="category" />
                             <h4>Sublet</h4></a>
                         </div><!-- /.category-list -->
 
                         <div class="clearfix visible-sm"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-four.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-four.png" alt="category" />
                             <h4>Bachelor Mess</h4></a>
                         </div><!-- /.category-list -->
 
@@ -141,12 +141,12 @@
                         <div class="clearfix visible-md visible-lg"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-five.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-five.png" alt="category" />
                             <h4>Office</h4></a>
                         </div><!-- /.category-list -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-six.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-six.png" alt="category" />
                             <h4>Garage</h4></a>
                         </div><!-- /.category-list -->
 
@@ -154,11 +154,11 @@
                         <div class="clearfix visible-sm"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-seven.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-seven.png" alt="category" />
                             <h4>Factory</h4></a>
                         </div><!-- /.category-list -->
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-eight.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-eight.png" alt="category" />
                             <h4>Hall Room</h4></a>
                         </div><!-- /.category-list -->
 
@@ -166,25 +166,25 @@
                         <div class="clearfix visible-md visible-lg"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-nine.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-nine.png" alt="category" />
                             <h4>Warehouse</h4></a>
                         </div><!-- /.category-list -->
 
                         <div class="clearfix visible-sm"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-ten.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-ten.png" alt="category" />
                             <h4>Female Mess</h4></a>
                         </div><!-- /.category-list -->
 
                         <div class="clearfix visible-xs"></div><!-- /.clearfix -->
 
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-two.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-two.png" alt="category" />
                             <h4>Apartment</h4></a>
                         </div><!-- /.category-list -->
                         <div class="category-list style-two col-md-3 col-sm-4 col-xs-6">
-                            <a href="#"><img src="assets/images/category/category-one.png" alt="category" />
+                            <a href="#"><img src="views/assets/images/category/category-one.png" alt="category" />
                             <h4>Family House</h4></a>
                         </div><!-- /.category-list -->
                     </div><!--/.catagory-right-content -->
@@ -208,7 +208,7 @@
                <div class="col-md-4 col-sm-6 col-xs-6">
                    <div class="apartments-content">
                        <div class="image-content">
-                           <a href="apartment-single.html"><img src="assets/images/apartment/apartment-one.png" alt="apartment" /></a>
+                           <a href="apartment-single.html"><img src="views/assets/images/apartment/apartment-one.png.jpg" alt="apartment" /></a>
                        </div><!-- /.image-content -->
                    
                        <div class="text-content">
@@ -262,7 +262,7 @@
                <div class="col-md-4 col-sm-6 col-xs-6">
                    <div class="apartments-content">
                        <div class="image-content">
-                           <a href="apartment-single.html"><img src="assets/images/apartment/apartment-two.png" alt="apartment" /></a>
+                           <a href="apartment-single.html"><img src="views/assets/images/apartment/apartment-two.png" alt="apartment" /></a>
                        </div><!-- /.image-content -->
                    
                        <div class="text-content">
@@ -318,7 +318,7 @@
                <div class="col-md-4 col-sm-6 col-xs-6">
                    <div class="apartments-content">
                        <div class="image-content">
-                           <a href="apartment-single.html"><img src="assets/images/apartment/apartment-three.png" alt="apartment" /></a>
+                           <a href="apartment-single.html"><img src="views/assets/images/apartment/apartment-three.png" alt="apartment" /></a>
                        </div><!-- /.image-content -->
                    
                        <div class="text-content">
@@ -374,7 +374,7 @@
                <div class="col-md-4 col-sm-6 col-xs-6">
                    <div class="apartments-content">
                        <div class="image-content">
-                           <a href="apartment-single.html"><img src="assets/images/apartment/apartment-four.png" alt="apartment" /></a>
+                           <a href="apartment-single.html"><img src="views/assets/images/apartment/apartment-four.png" alt="apartment" /></a>
                        </div><!-- /.image-content -->
                    
                        <div class="text-content">
@@ -430,7 +430,7 @@
                <div class="col-md-4 col-sm-6 col-xs-6">
                    <div class="apartments-content">
                        <div class="image-content">
-                           <a href="apartment-single.html"><img src="assets/images/apartment/apartment-five.png" alt="apartment" /></a>
+                           <a href="apartment-single.html"><img src="views/assets/images/apartment/apartment-five.png" alt="apartment" /></a>
                        </div><!-- /.image-content -->
                    
                        <div class="text-content">
@@ -484,7 +484,7 @@
                <div class="col-md-4 col-sm-6 col-xs-6">
                     <div class="apartments-content">
                         <div class="image-content">
-                            <a href="apartment-single.html"><img src="assets/images/apartment/apartment-six.png" alt="apartment" /></a>
+                            <a href="apartment-single.html"><img src="views/assets/images/apartment/apartment-six.png" alt="apartment" /></a>
                         </div><!-- /.image-content -->
                     
                         <div class="text-content">
@@ -548,13 +548,13 @@
     					<div class="gallery-left-content">
     						<div class="row">
     							<div class="col-md-4 col-sm-4 col-xs-4">
-    								<img src="assets/images/gallery/gallery-one.png" alt="gallery" />
+    								<img src="views/assets/images/gallery/gallery-one.png" alt="gallery" />
     							</div><!-- /.col-md-4 -->
     							<div class="col-md-4 col-sm-4 col-xs-4">
-    								<img src="assets/images/gallery/gallery-two.png" alt="gallery" />
+    								<img src="views/assets/images/gallery/gallery-two.png" alt="gallery" />
     							</div><!-- /.col-md-4 -->
     							<div class="col-md-4 col-sm-4 col-xs-4">
-    								<img src="assets/images/gallery/gallery-three.png" alt="gallery" />
+    								<img src="views/assets/images/gallery/gallery-three.png" alt="gallery" />
     							</div><!-- /.col-md-4 -->
     						</div><!-- /.row -->
     					</div><!-- /.left-content -->
@@ -607,7 +607,7 @@
                     <div class="testimonial-slider owl-carousel owl-theme">
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -624,7 +624,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -641,7 +641,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -658,7 +658,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -675,7 +675,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -692,7 +692,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -709,7 +709,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
@@ -726,7 +726,7 @@
                         </div><!-- /.item -->
                         <div class="item">
                             <div class="client-image">
-                                <img src="assets/images/testimonial-image.png" alt="testimonial" />
+                                <img src="views/assets/images/testimonial-image.png" alt="testimonial" />
                             </div><!-- /.client-image -->
                             <div class="client-content">                            
                                 <h3>Single Rakib</h3>
