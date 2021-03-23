@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="views/assets/css/colors.css">
     <link rel="stylesheet" href="views/assets/css/plugins.css">
     <link rel="stylesheet" href="views/assets/css/style.css">
+    
 
 >>>>>>> lorena
     <title>Home</title>

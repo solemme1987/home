@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -87,7 +87,7 @@
                         <div class="logo-area tb-cell">
                             <div class="site-logo">
                                 <a href="index.html">
-                                    <img src="assets/images/footer-logo.png" alt="site-logo" />
+                                    <img src="views/assets/images/footer-logo.png" alt="site-logo" />
                                 </a>
                             </div><!-- /.site-logo -->
                         </div><!-- /.logo-area -->
@@ -149,7 +149,7 @@
 				<div class="col-md-3">
 					<div class="site-logo">
                         <a href="index.html">
-                            <img src="assets/images/footer-logo.png" alt="house" />
+                            <img src="views/assets/images/footer-logo.png" alt="house" />
                         </a>
                     </div><!-- /.house-logo -->
 				</div><!-- /.col-md-4 -->
@@ -410,6 +410,4 @@
             </div> <!-- cd-user-modal-container -->
         </div> <!-- cd-user-modal -->
     </div><!-- /.header-overlay-content -->
-=======
-<h1 class="lorena"> SOY UN HEADER</h1>
->>>>>>> lorena
+
