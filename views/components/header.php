@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -409,3 +410,6 @@
             </div> <!-- cd-user-modal-container -->
         </div> <!-- cd-user-modal -->
     </div><!-- /.header-overlay-content -->
+=======
+<h1 class="lorena"> SOY UN HEADER</h1>
+>>>>>>> lorena
