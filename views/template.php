@@ -12,7 +12,7 @@
 
 </head>
 <body>
-<div class="container">
+<!-- <div class="container"> -->
 <?php
 
 
@@ -24,6 +24,11 @@
 
             include "components/header.php";
 
+          /*============================================
+                SLIDER
+          ==============================================*/
+
+          include "components/slider.php";
           /*============================================
                 LATERAL
           ==============================================*/
@@ -63,7 +68,10 @@
   ?>
 
 
-</div>
-
+<!-- </div> -->
+<script src="views/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="views/assets/js/plugins.js"></script>
+    <script src="views/assets/js/main.js"></script> <!-- main-js -->
 </body>
+
 </html>
