@@ -48,7 +48,7 @@
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="booking.html">Booking</a>
+                                                <a href="booking">Booking</a>
                                             </li>
                                             <li><span class="menu-click"><i class="menu-arrow fa fa-plus"></i></span>
                                                 <a href="#">House<span class="fa fa-angle-down"></span></a>
@@ -220,7 +220,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="booking.html">Booking</a>
+                                    <a href="booking">Booking</a>
                                 </li>
                                 <li>
                                     <a href="#">House<span class="fa fa-angle-down"></span></a>

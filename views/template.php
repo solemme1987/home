@@ -27,7 +27,7 @@
           /*============================================
                 SLIDER
           ==============================================*/
-
+        
           include "components/slider.php";
           /*============================================
                 LATERAL
@@ -42,7 +42,7 @@
           if (isset($_GET["route"])){
 
             if($_GET["route"]=="home" ||
-               $_GET["route"]=="diseno"
+               $_GET["route"]=="booking"
 
             ){
 
