@@ -71,7 +71,7 @@ Version: 1.0
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-
+/* @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap'); */
 
 html {
   font-size: 100%;
@@ -85,6 +85,11 @@ body {
   line-height: 1.45em;
   color: #4b4b4b;
 }
+/* .slider{
+  background-image: url('views/assets/images/slider.png');
+  position: relative;
+  
+} */
 
 /*--------------------------------------------------------------
 # Headings
@@ -3438,10 +3443,12 @@ Sign In/Sign Up Pop up
 --------------------------------------------------------------*/
 .slider-content {
   padding: 130px 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .slider-area {
   overflow: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .slider-text-content {
