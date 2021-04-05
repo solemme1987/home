@@ -28,10 +28,10 @@
 
          <li class="list-title">Administracíon</li>
 
-         <a href="equipos">
+         <a href="usuarios">
                <li class="list-item mt-2 ">
-                  <i class="fas fa-user"></i>
-                  <span class="ms-3">Equipos</span>
+                  <i class="fas fa-users"></i>
+                  <span class="ms-3">Usuarios </span>
                </li>
          </a>
 

@@ -51,7 +51,7 @@
 
             if(
                $_GET["route"]=="home" ||
-               $_GET["route"]=="equipos"||
+               $_GET["route"]=="usuarios"||
                $_GET["route"]=="jugadores"||
                $_GET["route"]=="partidos"||
                $_GET["route"]=="detalles"
