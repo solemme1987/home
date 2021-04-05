@@ -5,8 +5,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="heading-content-two available">
-                            <h2 class="title">We Are Available<br/> For You 24/7</h2>
-                            <h5 class="sub-title">Our online support service is always 24 Hours</h5>
+                            <h2 class="title">Estamos disponible<br/>para ti</h2>
+                            <h5 class="sub-title">NUESTRO SERVICIO DE SOPORTE ONLINE ES SIEMPRE LAS 24 HORAS</h5>
                         </div><!-- /.testimonial-heading-content -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -21,13 +21,13 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact">
-                                        <h4><i class="fa fa-address-book"></i>Address</h4>
+                                        <h4><i class="fa fa-address-book"></i>Dirección</h4>
                                         <p>112/B - Road 121, King/St Melbourne Australia</p>
                                     </div><!-- /.contact -->
                                 </div><!-- /.col-md-6 -->
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact">
-                                        <h4><i class="fa fa-envelope"></i>Mail</h4>
+                                        <h4><i class="fa fa-envelope"></i>correo</h4>
                                         <p>yourmail@domain.com houserent@domain.com</p>
                                     </div><!-- /.contact -->
                                 </div><!-- /.col-md-6 -->
@@ -35,13 +35,13 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact">
-                                        <h4><i class="fa fa-phone-square"></i>Call</h4>
+                                        <h4><i class="fa fa-phone-square"></i>Telefono</h4>
                                         <p>+99 0215469875 <br/>666 35874692050</p>
                                     </div><!-- /.contact -->
                                 </div><!-- /.col-md-6 -->
                                 <div class="col-md-6 col-sm-6">
                                     <div class="contact">
-                                        <h4><i class="fa fa-user-circle"></i>Social account</h4>
+                                        <h4><i class="fa fa-user-circle"></i>Redes sociales</h4>
                                         <div class="social-icon">
                                             <a href="#"><i class="fa fa-facebook"></i></a>
                                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -64,8 +64,8 @@
             <div class="col-md-12">
                 <div class="row">
                     <div class="heading-content-one">
-                        <h2 class="title">Our Blog Post</h2>
-                        <h5 class="sub-title">Our News Feed</h5>
+                        <h2 class="title">Nuestro block</h2>
+                        <h5 class="sub-title">Noticias</h5>
                     </div><!-- /.blog-heading-content -->
                 </div><!-- /.row -->
             </div><!-- /.col-md-12 -->
@@ -161,7 +161,7 @@
                     </article><!-- /.post -->
                 </div><!-- /.col-md-4 -->
             </div><!-- /.row -->
-            <a href="blog.html" class="button">show all</a>
+            <a href="blog.html" class="button">mostar mas</a>
         </div><!-- /.container -->
     </div><!-- /.Blog-area-->
 
@@ -173,43 +173,44 @@
                    <div class="widget widget_about yellow-color">    
                        <div class="widget-title-area">
                            <h3 class="widget-title">
-                               About House Rent
+                               Acerca de house rent
                            </h3><!-- /.widget-title -->
                        </div><!-- /.widget-title-area -->
                        <div class="widget-about-content">
                            <img src="views/assets/images/footer-logo.png" alt="house" />
-                           <p>We Provide Premium Word Press, Ghost and HTML template. Our Perm tritium Templates is, develop gaped in a way so that the clients find  Support. Themes are developed in a way so that the clients find.</p>
-                           <a href="#" class="button">More</a>
+                           <p>House rent  es una plataforma para  rentar y ofreser casa  en distintos lugares del mundo.
+ </p>
+                           <a href="#" class="button">Mas</a>
                        </div><!-- /.widget-content -->
                    </div><!-- /.widget widget_about -->
                </div><!-- /.col-md-4 -->
                <div class="col-md-4">
                    <div class="widget widget_place_category yellow-color">
                        <div class="widget-title-area">
-                           <h3 class="widget-title">Place Category</h3><!-- /.widget-title -->
+                           <h3 class="widget-title">categorias</h3><!-- /.widget-title -->
                        </div><!-- /.widget-title-area -->
                        <ul>
-                           <li>Flat for Rent <a href="#">Francis</a></li>
-                           <li>Flat for Rent <a href="#">Collins St</a></li>
-                           <li>Flat for Rent <a href="#">Rose Ln</a></li>
-                           <li>Flat for Rent <a href="#">Cosgrave Ln</a></li>
-                           <li>Flat for Rent <a href="#">Bourke St</a></li>
-                           <li>Flat for Rent <a href="#">Flienders Ln</a></li>
+                           <li> Apartamentos en  <a href="#">Francis</a></li>
+                           <li> Apartamentos en  <a href="#">Collins St</a></li>
+                           <li> Apartamentos en  <a href="#">Rose Ln</a></li>
+                           <li> Apartamentos en  <a href="#">Cosgrave Ln</a></li>
+                           <li> Apartamentos en  <a href="#">Bourke St</a></li>
+                           <li> Apartamentos en  <a href="#">Flienders Ln</a></li>
                        </ul> 
                    </div><!-- /.widget -->
                </div><!-- /.col-md-4 -->
                <div class="col-md-4">
                    <div class="widget widget_instagram yellow-color">
                        <div class="widget-title-area">
-                           <h3 class="widget-title">Instagram Image</h3><!-- /.widget-title -->
+                           <h3 class="widget-title">Mas vistos</h3><!-- /.widget-title -->
                        </div><!-- /.widget-title-area -->
                        <div class="instagram-image-content">
-                           <a href="#"><img src="views/assets/images/instagram/instagram-one.png" alt="" /></a>
-                           <a href="#"><img src="views/assets/images/instagram/instagram-two.png" alt="" /></a>
-                           <a href="#"><img src="views/assets/images/instagram/instagram-three.png" alt="" /></a>
-                           <a href="#"><img src="views/assets/images/instagram/instagram-four.png" alt="" /></a>
-                           <a href="#"><img src="views/assets/images/instagram/instagram-five.png" alt="" /></a>
-                           <a href="#"><img src="views/assets/images/instagram/instagram-six.png" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/img1.jpg" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/img2.jpg" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/img3.jpg" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/img4.jpg" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/img5.jpg" alt="" /></a>
+                           <a href="#"><img src="views/assets/images/instagram/img6.jpg" alt="" /></a>
 
                        </div><!-- /.instagram-image-content -->
                    </div><!-- /.widget -->
@@ -218,7 +219,7 @@
            <div class="row">
                <div class="col-md-12">
                    <div class="bottom-content">
-                       <p>Copyright  &copy;2017 <a href="#">HTMLguru</a></p>
+                       <p>Copyright  &copy;2021 <a href="#">Programate</a></p>
                    </div><!-- /.bottom-top-content -->
                </div><!-- /.col-md-12 -->
            </div><!-- /.row -->
