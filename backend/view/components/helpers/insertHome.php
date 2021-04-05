@@ -1,4 +1,4 @@
-<div class="modal fade" id="insertGoal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="insertHome" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -9,24 +9,20 @@
       <div class="modal-body">
 
          <form id='goalDetailsForm'>
-            <div class="input-group mb-3 ">
-                <span class="input-group-text ">N° Partido</span>
-                <select class="form-select" id="match" name="match" required >
-                        <option selected>Selccionar Partido</option>
-                        <?php
-                            $showMatch = new MatchMastController();
-                            $showMatch-> showMatchController();
-                        ?>
-                </select>
-            </div>
+
+                 <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text " id="addon-wrapping" >Nombre</span>
+                    <input type="text" class="form-control" name="nombre" id="nombreHome" placeholder="Nombre Casa" aria-label="homeName"  aria-describedby="addon-wrapping">
+                 </div>
+
 
             <div class="input-group mb-3 ">
                 <span class="input-group-text " >Jugador</span>
                 <select class="form-select"  id="player" name="player" required>
                         <option selected>Selccionar Jugador</option>
                         <?php
-                            $showPlayer = new PlayerMastController();
-                            $showPlayer-> showPlayerController();
+                            // $showPlayer = new PlayerMastController();
+                            // $showPlayer-> showPlayerController();
                         ?>
                 </select>
             </div>
@@ -36,8 +32,8 @@
                 <select class="form-select" id="team" name="team"  required>
                         <option selected>Selccionar Equipo</option>
                         <?php
-                            $showCountry = new CountryController();
-                            $showCountry-> showCountryController();
+                            // $showCountry = new CountryController();
+                            // $showCountry-> showCountryController();
                         ?>
                 </select>
             </div>

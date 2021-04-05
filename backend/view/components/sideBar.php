@@ -35,10 +35,10 @@
                </li>
          </a>
 
-         <a href="jugadores">
+         <a href="casas">
             <li class="list-item mt-2 ">
-                  <i class="fas fa-running"></i>
-                  <span class="ms-3">Jugadores</span>
+                  <i class="fas fa-home"></i>
+                  <span class="ms-3">Casas</span>
             </li>
          </a>
 
