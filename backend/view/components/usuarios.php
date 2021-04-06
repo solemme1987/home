@@ -1,17 +1,14 @@
-<div class="col-10 bg-primary mt-5 position-absolute top-0 end-0">
-    <h1>PERSONAS</h1>
-</div>
 <?php
- include "helpers/insertHome.php";
+ include "helpers/insertUser.php";
 ?>
 <div class="col-10 px-4 mt-5 position-absolute top-0 end-0">
 
-<h3 class="mt-3">personas</h3>
+<h3 class="mt-3">Personas</h3>
 <div class="mt-4 d-flex justify-content-between ">
 
     <div>
-        <button class="btn btn-success btn-sm mr-2 " data-bs-toggle="modal" data-bs-target="#insertHome">
-            <i class="fas fa-futbol"></i> Agregar
+        <button class="btn btn-success btn-sm mr-2 " data-bs-toggle="modal" data-bs-target="#insertUser">
+            <i class=></i> Agregar
         </button>
        
     </div>
@@ -23,9 +20,9 @@
 
     <div>
       <h4>
-        Casas
+        
         <i class="fas fa-futbol text-primary"></i> 
-        <span class="text-danger" id="totalGoals">122</span> 
+        <span class="text-danger" id="totalGoals"></span> 
       </h4>
     </div>
 </div>
@@ -45,13 +42,12 @@
 </thead>
 <tbody id="tableBodyGoalDetails">
 <tr>
-                <th scope="row">123</th>
-                <td>51</td>
-                <td>Nani</td>
-                <td>Portugal</td>
-                <td>N</td>
-                <td>2</td>
-                <td>F</td>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td class="text-center">
                     <button class="btn btn-primary btn-sm" id="addGoal" idgoal="123" data-bs-toggle="modal" data-bs-target="#deleteGoal" data-bs-placement="top" title="Actualizar">
                        <i class="fas fa-pen"></i>
