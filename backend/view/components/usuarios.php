@@ -21,7 +21,7 @@
     <div>
       <h4>
         
-        <i class="fas fa-futbol text-primary"></i> 
+       <!--  <i class="fas fa-futbol text-primary"></i> --> 
         <span class="text-danger" id="totalGoals"></span> 
       </h4>
     </div>
