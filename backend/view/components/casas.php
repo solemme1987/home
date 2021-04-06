@@ -8,7 +8,7 @@
 
     <div>
         <button class="btn btn-success btn-sm mr-2 " data-bs-toggle="modal" data-bs-target="#insertHome">
-            <i class="fas fa-futbol"></i> Argregar
+            <i class="fas fa-futbol"></i> Agregar
         </button>
         <button class="btn btn-primary btn-sm">
           <i class="fas fa-print"></i> Imprimr

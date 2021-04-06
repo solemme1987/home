@@ -28,74 +28,23 @@
                     aria-label="homeName"  aria-describedby="addon-wrapping">
                  </div>
 
+                 <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text " id="addon-wrapping" >N° Baños</span>
+                    <input type="text" class="form-control" name="N° Baños" id="N° BañosHome" placeholder="N° Baños Casa" 
+                    aria-label="homeName"  aria-describedby="addon-wrapping">
+                 </div>
 
-            <div class="input-group mb-3 ">
-                <span class="input-group-text " >Jugador</span>
-                <select class="form-select"  id="player" name="player" required>
-                        <option selected>Selccionar Jugador</option>
-                        <?php
-                            // $showPlayer = new PlayerMastController();
-                            // $showPlayer-> showPlayerController();
-                        ?>
-                </select>
-            </div>
+                 <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text " id="addon-wrapping" >Parqueadero </span>
+                    <input type="text" class="form-control" name="Parqueadero " id="Parqueadero Home" placeholder="Parqueadero Casa" 
+                    aria-label="homeName"  aria-describedby="addon-wrapping">
+                 </div>
 
-            <div class="input-group mb-3 ">
-                <span class="input-group-text " >Equipo</span>
-                <select class="form-select" id="team" name="team"  required>
-                        <option selected>Selccionar Equipo</option>
-                        <?php
-                            // $showCountry = new CountryController();
-                            // $showCountry-> showCountryController();
-                        ?>
-                </select>
-            </div>
-
-            <div class="input-group mb-3 ">
-                <span class="input-group-text " >Tiempo</span>
-                <input type="number" class="form-control" id="time" placeholder="Minuto Gol"  aria-label="Minuto Gol" name="time" aria-describedby="Minuto Gol" required>
-
-                <span class="input-group-text" >Tipo Gol</span>
-                <select class="form-select" id="goal_type" name="goal_type" required>
-                    <option selected>Tipo de gol</option>
-                    <option value="N">Normal</option>
-                    <option value="P">Penal</option>
-                </select>
-            </div>
-
-            <div class="input-group mb-3 ">
-
-                <span class="input-group-text bg-danger text-white" >Etapa</span>
-                <select class="form-select" id="stage" name="stage" required>
-                    <option selected>Seleccionar Etapa</option>
-                    <option value="G">Grupos</option>
-                    <option value="R">Octavos</option>
-                    <option value="Q">Cuartos</option>
-                    <option value="S">Semifinal</option>
-                    <option value="F">Final</option>
-                </select>
-
-            </div>
-
-            <div class="input-group mb-3 ">
-                <span class="input-group-text bg-danger text-white" >Marcado en</span>
-                <select class="form-select" id="schedule" name="schedule"  required>
-                    <option selected>Seleccionar</option>
-                    <option value="NT">Tiempo Normal</option>
-                    <option value="ST">Tiempo Adicional</option>
-                    <option value="ET">Tiempo Extra</option>
-                </select>
-            </div>
-
-            <div class="input-group mb-3 ">
-                <span class="input-group-text bg-danger text-white" >En que tiempo</span>
-                <select class="form-select" id="half" name="half"  required>
-                    <option selected>Seleccionar</option>
-                    <option value="1">1 Primer Tiempo</option>
-                    <option value="2">2 Segundo Tiempo </option>
-                </select>
-            </div>
-
+                 <div class="input-group flex-nowrap mb-3">
+                    <span class="input-group-text " id="addon-wrapping" >Internet</span>
+                    <input type="text" class="form-control" name="Internet" id="InternetHome" placeholder="Internet Casa" 
+                    aria-label="homeName"  aria-describedby="addon-wrapping">
+                 </div>
         </div>
 
         <div class="modal-footer">
