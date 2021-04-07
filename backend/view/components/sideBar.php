@@ -4,8 +4,8 @@
    <!-- LOGO -->
    <div class="row ">
       <div class="col-12 px-4 logo-box text-uppercase fw-bold d-flex justify-content-between align-items-center">
-         <img class="mt-2" src="view/assets/img/copa.png" alt="profile" width="40px">
-         <img class="mt-2" src="view/assets/img/logo_euro.png" alt="profile" width="80px">
+         <img class="mt-2" src="view/assets/img/logo.png" alt="profile" width="40px">
+         <img class="mt-2" src="view/assets/img/logoletra.png" alt="profile" width="80px">
       </div>
    </div>
 

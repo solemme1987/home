@@ -156,7 +156,7 @@
                     <div class="left-content">
                         <ul>
                             <li>
-                                <a href="#"><i class="fa fa-phone-square"></i>Call Us - 01623 030020</a>
+                                <a href="#"><i class="fa fa-phone-square"></i>Llamanos xxxx</a>
                             </li>
                             <li>
                                 <a href="#" class="cd-signin"><i class="fa fa-address-book"></i>Login / Register</a>
