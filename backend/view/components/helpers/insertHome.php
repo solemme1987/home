@@ -45,6 +45,14 @@
                     <input type="text" class="form-control" name="Internet" id="InternetHome" placeholder="Internet Casa" 
                     aria-label="homeName"  aria-describedby="addon-wrapping">
                  </div>
+
+                 <div class="mb-3">
+                   <label for="formFileMultiple" class="form-label">subir imagenes de la casa</label>
+                   <input class="form-control" type="file" name="file[]" multiple>
+                    <button type="button" onclick="subir()" class="btn btn-primary form-control" >Cargar</button>
+                 </div>
+                 
+</form>
         </div>
 
         <div class="modal-footer">
