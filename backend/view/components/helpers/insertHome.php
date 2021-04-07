@@ -49,11 +49,10 @@
                  <div class="mb-3">
                    <label for="formFileMultiple" class="form-label">subir imagenes de la casa</label>
                    <input class="form-control" type="file" name="file[]" multiple>
-                    <button type="button" onclick="subir()" class="btn btn-primary form-control" >Cargar</button>
                  </div>
                  
-</form>
-        </div>
+         </form>
+      </div>
 
         <div class="modal-footer">
             <button type="button"id="insertGoalDetail" class="btn btn-primary">Agregar</button>
