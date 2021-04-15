@@ -39,18 +39,20 @@
     <th scope="col">N° Baños</th>
     <th scope="col">Parqueadero</th>
     <th scope="col">Internet</th>
+    <th scope="col">imagenes</th>
     <th scope="col">Acciones</th>
   </tr>
 </thead>
 <tbody id="tableBodyGoalDetails">
 <tr>
                 <th scope="row">123</th>
-                <td>51</td>
-                <td>Nani</td>
-                <td>Portugal</td>
-                <td>N</td>
-                <td>2</td>
-                <td>F</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td class="text-center">
                     <button class="btn btn-primary btn-sm" id="addGoal" idgoal="123" data-bs-toggle="modal" data-bs-target="#deleteGoal" data-bs-placement="top" title="Actualizar">
                        <i class="fas fa-pen"></i>

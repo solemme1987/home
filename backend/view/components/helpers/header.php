@@ -11,7 +11,7 @@
             <div class="img-profile ms-3">
                 <img class="" src="view/assets/img/profile.png" alt="profile">
             </div>
-            <perfil class="ms-3 profile-name">Ricardo cortes</perfil>
+            <perfil class="ms-3 profile-name">Inmobiliaria</perfil>
         </div>
     </div>
 </header>

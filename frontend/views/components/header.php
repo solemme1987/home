@@ -344,32 +344,40 @@
     </div><!-- /.header-search-content -->
 
     <!-- Registrar Or Sign In-content -->
+
+     <?php
+            $tabla = new UserController();
+            $tabla->insertUserController();
+
+            ?> 
     <div class="cd-user-modal">
         <div class="cd-user-modal-container">
             <ul class="cd-switcher">
-                <li><a href="#0">Sign in</a></li>
-                <li><a href="#0">New account</a></li>
+                <li><a href="#0">Iniciar Sección</a></li>
+                <li><a href="#0">Crear Cuenta</a></li>
             </ul>
 
             <!-- log in form -->
+       
+          
             <div id="cd-login">
-                <form class="cd-form">
+                <form class="cd-form"method="POST">
                     <p class="fieldset">
                         <label class="image-replace cd-email" for="signin-email">E-mail</label>
-                        <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                        <input class="full-width has-padding has-border" id="signin-email"name="email" type="email" placeholder="Correo">
                         <span class="cd-error-message">Error message here!</span>
                     </p>
 
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signin-password">Password</label>
-                        <input class="full-width has-padding has-border" id="signin-password" type="text" placeholder="Password">
+                        <input class="full-width has-padding has-border" id="signin-password" type="text" placeholder="Contraseña">
                         <a href="#0" class="hide-password">Hide</a>
                         <span class="cd-error-message">Error message here!</span>
                     </p>
 
                     <p class="fieldset">
                         <input type="checkbox" id="remember-me" checked="">
-                        <label for="remember-me">Remember me</label>
+                        <label for="remember-me">Recuérdame</label>
                     </p>
 
                     <p class="fieldset">
@@ -378,41 +386,87 @@
                 </form>
 
                 <p class="cd-form-bottom-message">
-                    <a href="#0">Forgot your password?</a>
+                    <a href="#0">Olvidaste tu contraseña?</a>
                 </p>
                 <a href="#0" class="cd-close-form">Close</a>
             </div> <!-- cd-login -->
 
             <!-- sign up form -->
+
+     
             <div id="cd-signup">
-                <form class="cd-form">
-                    <p class="fieldset">
-                        <label class="image-replace cd-username" for="signup-username">Username</label>
-                        <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                <form class="cd-form" method="POST">
+                    <label for="">Nombre</label>
+                    <input type="text" name="name" id="" placeholder="Nombre" required><br>
+
+                    <label for="">Apellido</label>
+                    <input type="text" name="lastname" id="" placeholder="Apellido" required><br>
+
+                    <label for="">Correo</label>
+                    <input type="email" name="email" id="" placeholder="email"required><br>
+
+                    <label for="">Contraseña</label>
+                    <input type="password" name="password" id="" placeholder="Contraseña"required><br>
+
+                    <label for="">Ciudad</label>
+                    <input type="text" name="city" id="" placeholder="Ciudad"required><br>
+
+                    <label for="">Terminos de Uso</label>
+                    <input type="checkbox" name="termsOfUse" id="" placeholder="Terminos y condicciones" required><br>
+
+                    <button type="submit">Crear Cuenta</button>
+                  <!--   <input  type="submit" value="Crear Cuenta"> -->
+
+
+
+
+
+
+
+
+
+                    
+                    <!-- <p class="fieldset">
+                        <label class="image-replace cd-username" for="name">name</label>
+                        <input class="full-width has-padding has-border"name="name" id="signup-name" type="text" placeholder="Nombre">
                         <span class="cd-error-message">Error message here!</span>
                     </p>
 
                     <p class="fieldset">
-                        <label class="image-replace cd-email" for="signup-email">E-mail</label>
-                        <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                        <label class="image-replace cd-username" for="lastname">Lastname</label>
+                        <input class="full-width has-padding has-border"name="lastname" id="signup-lastname" type="text" placeholder="Apellido">
                         <span class="cd-error-message">Error message here!</span>
                     </p>
+
+                    <p class="fieldset">
+                        <label class="image-replace cd-email" for="signup-email">email</label>
+                        <input class="full-width has-padding has-border" name="email"type="email" placeholder="Correo">
+                       <!--  <span class="cd-error-message">Error message here!</span> -->
+                   <!--  </p>
 
                     <p class="fieldset">
                         <label class="image-replace cd-password" for="signup-password">Password</label>
-                        <input class="full-width has-padding has-border" id="signup-password" type="text" placeholder="Password">
+                        <input class="full-width has-padding has-border" name="password"id="signup-password" type="text" placeholder="Contraseña">
                         <a href="#0" class="hide-password">Hide</a>
                         <span class="cd-error-message">Error message here!</span>
                     </p>
+                    
+                    <p class="fieldset">
+                        <label class="image-replace cd-password" for="signup-city">city</label>
+                        <input class="full-width has-padding has-border"name= id="signup-city" type="text" placeholder="Ciudad">
+                        <a href="#0" class="hide-password">Hide</a>
+                        <span class="cd-error-message">Error message here!</span>
+                    </p> -->
 
+<!-- 
                     <p class="fieldset">
                         <input type="checkbox" id="accept-terms">
-                        <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
-                    </p>
+                        <label for="accept-terms">Acepto los términos <a href="#0">Terminos</a></label>
+                    </p> -->
 
-                    <p class="fieldset">
-                        <input class="full-width has-padding" type="submit" value="Create account">
-                    </p>
+                   <!--  <p class="fieldset">
+                        <input class="full-width has-padding" type="submit" value="Crear Cuenta">
+                    </p> -->
                 </form>
 
                 <a href="#0" class="cd-close-form">Close</a>
@@ -425,7 +479,7 @@
                 <form class="cd-form">
                     <p class="fieldset">
                         <label class="image-replace cd-email" for="reset-email">E-mail</label>
-                        <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+                        <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="Correo">
                         <span class="cd-error-message">Error message here!</span>
                     </p>
                     <p class="fieldset">

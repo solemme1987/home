@@ -7,9 +7,9 @@
 <<<<<<< HEAD
     <link rel="stylesheet" href="assets/css">
 =======
-    <link rel="stylesheet" href="views/assets/css/colors.css">
-    <link rel="stylesheet" href="views/assets/css/plugins.css">
-    <link rel="stylesheet" href="views/assets/css/style.css">
+    <link rel="stylesheet" href="views/assets/css/colors.css" type="text/css" />
+     <link rel="stylesheet" href="views/assets/css/plugins.css" type="text/css" />
+    <link rel="stylesheet" href="views/assets/css/style.css" type="text/css" />
     
 
 >>>>>>> lorena
