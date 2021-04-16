@@ -1,3 +1,164 @@
+// Dropzone class:
+let arrayPicture = [];
+let myDropzone = new Dropzone(".multimedia", {
+
+    url: "/",
+    addRemoveLinks: true,
+    acceptedFiles: "image/jpeg, image/png",
+    maxFileSize: 2,
+    maxFiles: 10,
+    init: function() {
+        this.on("addedfile", function(file) {
+            arrayPicture.push(file);
+            console.log(arrayPicture);
+        });
+        this.on("removedfile", function(file) {
+            let index = arrayPicture.indexOf(file);
+            arrayPicture.splice(index, 1);
+            console.log(arrayPicture);
+        });
+
+    }
+
+});
+
+
+// agregando la casa alservidor
+const btnSendHome = document.querySelector("#sendHome");
+btnSendHome.addEventListener('click', (e) => {
+
+    e.preventDefault();
+    const data = new FormData();
+    data.append('homeName', document.querySelector('#homeName').value);
+    data.append('descriptionHome', document.querySelector('#descriptionHome').value);
+    data.append('numberRooms', document.querySelector('#numberRooms').value);
+    data.append('battRooms', document.querySelector('#battRooms').value);
+    data.append('parking', document.querySelector('#parking').value);
+    data.append('internet', document.querySelector('#internet').value);
+    data.append('price', document.querySelector('#price').value);
+
+    // insert(data);
+
+});
+
+function capturarImagenes() {
+
+    if (arrayPicture.length > 0) {
+        let listMultimedia = [];
+        for (let i = 0; i < arrayPicture.length; i++) {
+            let dataMultimedia = new FormData();
+
+
+
+            fetch('ajax/ajax.home.php', {
+                    method: 'POST',
+                    body: dataMultimedia
+                })
+                .then(res => res.text())
+                .then(dataMultimedia => {
+
+                    // //SI EL REGISTRO ES EXITOSO
+                    // if (data == 'ok') {
+                    //     console.log(data);
+                    //     homeForm.reset(); //Limpiamos el formulario
+                    //     //simulamos un click para cerra el modal
+                    //     Swal.fire({
+                    //         position: 'top-center',
+                    //         icon: 'success',
+                    //         title: 'Casa registrada correctamente',
+                    //         showConfirmButton: false,
+                    //         timer: 1500
+                    //     });
+
+                    //     //SI EL REGISTRO NO ES EXITOSO
+                    // } else {
+                    //     console.log(data);
+
+                    //     Swal.fire(
+                    //         'Error!',
+                    //         'No se pudo Registrar la casa.',
+                    //         'error'
+                    //     );
+                    // }
+
+                });
+
+        }
+    }
+
+}
+
+
+function insert(data) {
+    const homeForm = document.querySelector("#homeForm");
+
+
+    // FETCH API
+    if (
+        document.querySelector('#homeName').value !== "" &&
+        document.querySelector('#descriptionHome').value !== "" &&
+        document.querySelector('#numberRooms').value !== "" &&
+        document.querySelector('#battRooms').value !== "" &&
+        document.querySelector('#parking').value !== "" &&
+        document.querySelector('#internet').value !== "" &&
+        document.querySelector('#price').value !== ""
+
+    ) {
+        fetch('ajax/ajax.home.php', {
+                method: 'POST',
+                body: data
+            })
+            .then(res => res.text())
+            .then(data => {
+
+                //SI EL REGISTRO ES EXITOSO
+                if (data == 'ok') {
+                    console.log(data);
+                    homeForm.reset(); //Limpiamos el formulario
+                    //simulamos un click para cerra el modal
+                    Swal.fire({
+                        position: 'top-center',
+                        icon: 'success',
+                        title: 'Casa registrada correctamente',
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+
+                    //SI EL REGISTRO NO ES EXITOSO
+                } else {
+                    console.log(data);
+
+                    Swal.fire(
+                        'Error!',
+                        'No se pudo Registrar la casa.',
+                        'error'
+                    );
+                }
+
+            });
+
+    } else {
+        Swal.fire(
+            'Error!',
+            'Debe llenar todos los campos.',
+            'error'
+        );
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 // var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
 // var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
 //     return new bootstrap.Tooltip(tooltipTriggerEl);
@@ -39,7 +200,7 @@
 
 // }
 
-// // INSERTO DATOS SIN RECARGAR LA PAGINA
+// INSERTO DATOS SIN RECARGAR LA PAGINA
 // function insertGoalDetail(data) {
 
 //     // FETCH API

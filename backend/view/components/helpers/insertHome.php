@@ -1,6 +1,6 @@
 <?php
-   $home = new HomeController();
-   $home->insertHomeController();
+   // $home = new HomeController();
+   // $home->insertHomeController();
 ?>
 <div class="modal fade" id="insertHome" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -12,7 +12,7 @@
       </div>
       <div class="modal-body">
 
-         <form method="POST">
+         <form method="post" enctype="multipart/form-data" id="homeForm">
 
                  <div class="input-group flex-nowrap mb-3">
                     <span class="input-group-text " id="addon-wrapping" >Nombre</span>
@@ -53,6 +53,16 @@
                         <option selected value="no">No</option>
                     </select>
                  </div>
+
+
+                 <div class="multimedia dropzone needsclick dz-clickable  input-group flex-nowrap mb-3">
+                   <div class="dz-message needsclick">
+                        <button type="button" class="dz-button">Arrastre sus imagens aqui.formato JPG y  PNG</button><br>
+                        <span class="note needsclick">(Maximo  <strong>10 imagens</strong> Peso de 2MB por imagen)</span>
+                     </div>
+                 </div>
+
+
                  <div class="input-group flex-nowrap mb-3">
                     <span class="input-group-text " id="addon-wrapping" >Precio $</span>
                     <input type="text" class="form-control" name="price" id="price" placeholder="Precio alquiler" 
@@ -62,10 +72,12 @@
         </div>
 
         <div class="modal-footer">
-            <button type="submit" class="btn btn-primary">Agregar</button>
+            <button type="submit" class="btn btn-primary" id="sendHome">Agregar</button>
             </form>
         </div>
 
     </div>
   </div>
 </div>
+
+

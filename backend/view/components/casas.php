@@ -1,5 +1,6 @@
 <?php
  include "helpers/insertHome.php";
+ include "helpers/dataHome.php";
 ?>
 <div class="col-10 px-4 mt-5 position-absolute top-0 end-0">
 
@@ -7,7 +8,7 @@
 <div class="mt-4 d-flex justify-content-between ">
 
     <div>
-        <button class="btn btn-success btn-sm mr-2 " data-bs-toggle="modal" data-bs-target="#insertHome">
+        <button class="btn btn-success btn-sm mr-2" data-bs-toggle="modal" data-bs-target="#insertHome">
             <i class="fas fa-futbol"></i> Agregar
         </button>
         <button class="btn btn-primary btn-sm">
@@ -54,11 +55,14 @@
                 <td>F</td>
                 <td>IMG</td>
                 <td class="text-center">
-                    <button class="btn btn-primary btn-sm" id="addGoal" idgoal="123" data-bs-toggle="modal" data-bs-target="#deleteGoal" data-bs-placement="top" title="Actualizar">
+                <button class="btn btn-warning btn-sm mr-2" data-bs-toggle="modal" data-bs-target="#dataHome">
+                <i class="fas fa-eye"></i> 
+                </button>
+                    <button class="btn btn-primary btn-sm" id="addGoal" idgoal="123" data-bs-toggle="modal" data-bs-target="#dataHome" data-bs-placement="top" title="Actualizar">
                        <i class="fas fa-pen"></i>
                     </button>
                     <button class="btn btn-danger btn-sm deleteGoal" idgoal="123" data-bs-toggle="tooltip" data-bs-placement="top" title="Elimnar">
-                      <i class="fas fa-trash" idgoal="123"></i>
+                      <i class="fas fa-trash" idgoal=""></i>
                     </button>
                 </td>
                 </tr>
