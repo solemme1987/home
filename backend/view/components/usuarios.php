@@ -49,7 +49,7 @@
                 <td></td>
                 <td></td>
                 <td class="text-center">
-                    <button class="btn btn-primary btn-sm" id="addGoal" idgoal="123" data-bs-toggle="modal" data-bs-target="#deleteGoal" data-bs-placement="top" title="Actualizar">
+                    <button class="btn btn-primary btn-sm" id=agregar" idgoal="123" data-bs-toggle="modal" data-bs-target="#agregar" data-bs-placement="top" title="agregar">
                        <i class="fas fa-pen"></i>
                     </button>
                     <button class="btn btn-danger btn-sm deleteGoal" idgoal="123" data-bs-toggle="tooltip" data-bs-placement="top" title="Elimnar">

@@ -29,6 +29,10 @@
                   <input type="password" class="form-control" name="contraseña" id="contraseñaPersons" placeholder="Ingrese su contraseña" aria-label="usuarios" aria-describedby="addon-wrapping">
                </div>
 
+
+
+
+                
                <div class="input-group flex-nowrap mb-3">
                   <span class="input-group-text ">Ciudad</span>
                   <select class="form-select" id="player" name="player" required>
