@@ -4,7 +4,7 @@ require_once 'conexion.php';
 
 class UserModel{
 
-   public static function inserUserModel($tabla,$datos){
+   public static function insertUserModel($tabla,$datos){
     
         $stmt = Conexion::conectar()->prepare("INSERT INTO $tabla (name,lastname,email,password,termsOfUse,city_id)
          VALUES(:name,:lastname,:email,:password,:termsOfUse,:city_id)");

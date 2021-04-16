@@ -361,7 +361,7 @@
        
           
             <div id="cd-login">
-                <form class="cd-form"method="POST">
+                <form class="cd-form" method="post" >
                     <p class="fieldset">
                         <label class="image-replace cd-email" for="signin-email">E-mail</label>
                         <input class="full-width has-padding has-border" id="signin-email"name="email" type="email" placeholder="Correo">
@@ -413,7 +413,7 @@
 
                     <label for="">Terminos de Uso</label>
                     <input type="checkbox" name="termsOfUse" id="" placeholder="Terminos y condicciones" required><br>
-
+                   
                     <button type="submit">Crear Cuenta</button>
                   <!--   <input  type="submit" value="Crear Cuenta"> -->
 

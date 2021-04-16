@@ -27,9 +27,10 @@ class UserController{
                                 );
 
                          
-                   $request = UserModel::inserUserModel($tabla,$datos);
+                   $request = UserModel::insertUserModel($tabla,$datos);
 
                      var_dump($request);
+                    
                 
                 if ($request=="ok"){
                     echo "
