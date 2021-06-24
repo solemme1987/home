@@ -4,7 +4,11 @@ require_once 'conexion.php';
 
 class UserModel{
 
+<<<<<<< HEAD
    public static function insertUserModel($tabla,$datos){
+=======
+   public static function inserUserModel($datos,$tabla){
+>>>>>>> jdmartin
     
         $stmt = Conexion::conectar()->prepare("INSERT INTO $tabla (name,lastname,email,password,termsOfUse,city_id)
          VALUES(:name,:lastname,:email,:password,:termsOfUse,:city_id)");
@@ -14,7 +18,7 @@ class UserModel{
         $stmt->bindParam(":email", $datos["email"],PDO::PARAM_STR);
         $stmt->bindParam(":password", $datos["password"],PDO::PARAM_STR);
         $stmt->bindParam(":termsOfUse", $datos["termsOfUse"],PDO::PARAM_STR);
-        $stmt->bindParam(":city_id", $datos["city_id"],PDO::PARAM_STR);
+        $stmt->bindParam(":city_id", $datos["city_id"],PDO::PARAM_INT); 
 
        
 
@@ -24,19 +28,14 @@ class UserModel{
         }else {
             return "error";
         }
+
+        
     
-    }
+   }
+   /* public static function idcityUserModel($ciudad){
+    $stmt=Conexion::conectar()->prepare("SELECT * FROM $ciudad");
+    $stmt->execute();
+    return $stmt->fetchAll();
 
-    
-    public static function isRepeateMail($tabla, $item)
-    {
-        $stmt = conexion::conectar()->prepare("SELECT email FROM $tabla WHERE email=:item");
-        $stmt->bindParam(":item", $item, PDO::PARAM_STR);
-        $stmt->execute();
-        return $stmt->fetchAll();
 
-    }
-
-    
-
-}
+  } */}

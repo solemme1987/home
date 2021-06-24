@@ -392,7 +392,11 @@
             </div> <!-- cd-login -->
 
             <!-- sign up form -->
+            <?php
+            $tabla = new UserController();
+            $tabla->insertUserController();
 
+            ?> 
      
             <div id="cd-signup">
                 <form class="cd-form" method="POST">
@@ -408,14 +412,29 @@
                     <label for="">Contraseña</label>
                     <input type="password" name="password" id="" placeholder="Contraseña"required><br>
 
-                    <label for="">Ciudad</label>
-                    <input type="text" name="city" id="" placeholder="Ciudad"required><br>
+                    <!-- <label for="">Ciudad</label>
+                    <input type="text" name="city_id" id="" placeholder="Ciudad"required><br> -->
+                    
+                    <label for="">Seleccione la Ciudad</label>
+                    <select name="city_id">
+                    <?php
+                     $tabla = new CityController();
+                     $tabla->selectCityController();
+                     ?> 
+            
+                    </select> <br>
 
                     <label for="">Terminos de Uso</label>
                     <input type="checkbox" name="termsOfUse" id="" placeholder="Terminos y condicciones" required><br>
+<<<<<<< HEAD
                    
                     <button type="submit">Crear Cuenta</button>
                   <!--   <input  type="submit" value="Crear Cuenta"> -->
+=======
+
+                    <button type="submit">Crear Cuenta</button> 
+                    <!-- <input  type="submit" value="Crear Cuenta"> -->
+>>>>>>> jdmartin
 
 
 

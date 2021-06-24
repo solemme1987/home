@@ -4,33 +4,25 @@ class UserController{
 
     public static function insertUserController(){
 
-        if(isset($_POST["email"])) {
+        if(isset($_POST["password"])) {
+            $tabla = "person";
+            /* $ciudad = $_POST["city_id"]; */
+               $datos=array(
+                   "name"=>$_POST["name"],
+                   "lastname"=>$_POST["lastname"],
+                   "email"=>$_POST["email"],
+                   "password"=>$_POST["password"],
+                   "termsOfUse"=>$_POST["termsOfUse"],
+                   "city_id"=>$_POST["city_id"] 
+               );
 
-            $tabla = 'person';
-            $item = $_POST["email"];
-
-            $consult= UserModel::isRepeateMail($tabla, $item);
-
-            if ($consult) {
-
-            /* $encriptar = crypt($_POST["password"], '$2a$07$asxx54ahjppf45sd87a5a4dDDGsystemdev$'); */
-
-
-                                $tabla="person";
-                                $datos=array(
-                                    "name"=>$_POST["name"],
-                                    "lastname"=>$_POST["lastname"],
-                                    "email"=>$_POST["email"],
-                                    "password"=>$_POST["password"],
-                                    "termsOfUse"=>$_POST["termsOfUse"],
-                                    "city_id"=>$_POST["city_id"],
-                                );
-
-                         
+                    
                    $request = UserModel::insertUserModel($tabla,$datos);
 
                      var_dump($request);
-                    
+        
+                   $request = UserModel::inserUserModel($datos,$tabla);
+
                 
                 if ($request=="ok"){
                     echo "
@@ -44,9 +36,7 @@ class UserController{
                         window.location = 'home';
                         }
                         })             
-                </script>
-
-                ";
+                </script>";
                 }   else {
                     echo "
                 <script>
@@ -70,14 +60,15 @@ class UserController{
                   })
                 </script>
                   ";
-                } 
+                }
+                 
         
         }
         
      
-    
+
     }
-}
+
 
          
 
